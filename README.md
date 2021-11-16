@@ -4,7 +4,7 @@ Date &amp; Time functionality for systems that support the "date" command with f
 
 ## Example usage
 
-```
+```terraform
 module "dates" {
   source = "toowoxx/external-dates"
 }
