@@ -6,7 +6,8 @@ Date &amp; Time functionality for systems that support the "date" command with f
 
 ```terraform
 module "dates" {
-  source = "toowoxx/external-dates"
+  source  = "toowoxx/dates/external"
+  # insert version here
 }
 
 locals {
